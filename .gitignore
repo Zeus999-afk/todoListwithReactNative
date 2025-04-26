@@ -37,4 +37,6 @@ yarn-error.*
 
 
 # Ignore Firebase config
-src/firebase/config.js
+config.js
+package-lock.json
+package.json
