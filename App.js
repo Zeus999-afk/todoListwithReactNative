@@ -1,7 +1,9 @@
+//CRUD Firebase from college
+
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, View, Text, TextInput, Button, FlatList, TouchableOpacity } from "react-native";
 import { collection, addDoc, getDocs, updateDoc, deleteDoc, doc } from "firebase/firestore";
-import { db } from "./connect";
+import { db } from "./config";
 import { useEffect, useState } from 'react';
 
 export default function App() {
